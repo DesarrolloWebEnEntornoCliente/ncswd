@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script src="js/hola.js"></script>
+    </head>
+    <body>
+        <div>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Escribe tu nombre" onkeyup="changename(this)">
+            <hr>
+            <h1>¡Hola <span id="nombre">Desconocido</span>!</h1>
+        </div>
+    </body>
+</html>

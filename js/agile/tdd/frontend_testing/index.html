@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/calculator.css">
+    <script src="./lib/calculator.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form name="calculator">
+        <fieldset>
+          <legend>Simple Calculator</legend>
+            <div>
+              <label for="firstoperand">First Operand</label>
+              <input type="text" name="firstoperand" id="firstoperand" placeholder="0">
+            </div>
+            <div>
+              <label for="secondoperand">Second Operand</label>
+              <input type="text" name="secondoperand" id="secondoperand" placeholder="0">
+            </div>
+            <div>
+              <button type="button" id="add">Add</button>
+            </div>
+          </legend>
+        </fieldset>
+      </form>
+      <div>
+        <p>Result is:</p>
+        <p id="result"></p>
+      </div>
+    </div>
+  </body>
+</html>

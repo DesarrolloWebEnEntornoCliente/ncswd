@@ -1,0 +1,29 @@
+div {
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+/* Try it out: set #inner's position to absolute and give it a margin-left of 20px. */
+/* Then: position: relative; and margin-left: 200px; */
+#inner {
+	height: 75px;
+	width: 75px;
+	background-color: #547980;
+	/*Add your CSS here!*/
+        /* position: absolute;
+	 * margin-left: 20px; */
+
+	/* position: relative;
+	margin-left: 200px; */
+}
+
+#outer {
+	height: 1500px;
+	width: 150px;
+	background-color: #45ADA8;
+	position: absolute;
+	margin-left: 100px;
+}
+

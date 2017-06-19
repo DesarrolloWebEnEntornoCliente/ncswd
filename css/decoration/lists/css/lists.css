@@ -1,0 +1,31 @@
+div {
+    margin-right: 2em;
+    padding-right: 2em;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div#list1 li {
+    font-size: 20px;
+    list-style-type: disc;
+}
+
+div#list2 li {
+    font-size: 30px;
+    list-style-type: circle;
+}
+
+div#list3 li {
+    font-size: 40px;
+    list-style-type: square;
+}
+
+div#list4 ul {
+}
+
+div#list4 li {
+    margin-left: 50px;
+    font-size: 50px;
+    list-style-type: upper-roman;
+}

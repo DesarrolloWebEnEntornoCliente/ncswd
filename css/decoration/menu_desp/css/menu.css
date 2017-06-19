@@ -1,0 +1,98 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.horizontal {
+    width: 20em;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.horizontal a {
+    display: block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+.horizontal li ul:before {
+    content: "";
+    float: right;
+    position: relative;
+    top: -1em;
+    width: 0;
+    height: 0;
+    border-top: 0.5em solid transparent;
+    border-left: 1em solid rgba(255, 0, 0, 0.5);
+    border-bottom: 0.5em solid transparent;
+}
+
+.horizontal a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(183, 183, 183);
+}
+
+.horizontal li ul a {
+    display: none;
+}
+.horizontal li:hover ul a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    left: 20em;
+    top: -1em;
+    width: 20em;
+}
+.horizontal li:hover ul {
+    position: absolute;
+    
+}
+
+.vertical {
+    width: 20em;
+    text-align: left;
+    border: 0.1em solid rgb(216, 213, 213);
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.vertical a {
+    display: block;
+    position: relative;
+    color: rgb(9, 26, 234);
+    background-color: rgb(216, 213, 213);
+    text-decoration: none;
+}
+.vertical li ul:before {
+    content: "";
+    float: right;
+    position: relative;
+    top: -1em;
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid transparent;
+    border-top: 1em solid rgba(193, 0, 0, 0.5);
+    border-right: 0.5em solid transparent;
+}
+.vertical a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(196, 196, 196);
+}
+
+.vertical li ul a {
+    display: none;
+}
+.vertical li:hover ul a {
+    display: block;
+    position: relative;
+    color: rgb(147, 147, 147);
+    background-color: rgb(255, 255, 255);
+}
+.vertical li:hover ul a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(168, 168, 168);
+}

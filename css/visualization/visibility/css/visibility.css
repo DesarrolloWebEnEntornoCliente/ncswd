@@ -1,0 +1,12 @@
+div {
+  border: solid 3px;
+  padding: 2%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+div#block2 {
+  background-color: red;
+  visibility: hidden;
+  display: none;
+}

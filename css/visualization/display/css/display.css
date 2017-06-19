@@ -1,0 +1,28 @@
+span.first {
+    font-weight: bold;
+    
+}
+
+a {
+    /*display: inline-block;*/
+    /*display: inline;*/
+    /*display: block;*/
+    background-color: red;
+    padding: 20px;
+}
+
+#blocks div {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#blocks span {
+  border-width: 3px;
+  border-style: dashed;
+  border-color: red;
+  padding: 5px;
+  }

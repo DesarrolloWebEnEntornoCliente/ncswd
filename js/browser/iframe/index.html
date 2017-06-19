@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frame example</title>
+    <meta charset="utf-8">
+    <style>
+      iframe {
+  	    width: 400;
+  	    height: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="./simple.html">
+      <p>Your browser does not support iframes.</p>
+    </iframe>
+    <script>
+      var iframe = document.getElementsByTagName("iframe");
+      alert("Frame title: " + iframe[0].contentDocument.title);
+    </script>
+  </body>
+</html>

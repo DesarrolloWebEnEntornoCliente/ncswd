@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Script tag example</title>
+    <script id="remotescript"></script>
+  </head>
+  <body>
+    <label for="scripturl">Enter script's URL</label>
+    <input type="text" name="scripturl" id="scripturl" value="" /> 
+    <button id="send">Run!</button>
+    <script>
+        var sendbutton = document.getElementById("send");
+        sendbutton.onclick = function () {
+            var scripturl = document.getElementById("scripturl").value,
+                script = document.getElementById("remotescript");
+            script.src = scripturl;
+        }
+    </script>
+  </body>
+</html> 

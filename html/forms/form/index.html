@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>HTML5 Form sample</title>
+  </head>
+  <body>
+    <form name="example" method="post" action="/processform">
+       <label>Name<input type="text" name="name" maxlenght="10"></label>
+       <fieldset>
+         <legend>Product</legend>
+         <p><label><input type="radio" name="product" value="p1">Product 1</label></p>
+         <p><label><input type="radio" name="product" value="p2">Product 2</label></p>
+         <p><label><input type="radio" name="product" value="p3" checked="true">Product 3</label></p>
+         <p><label><input type="radio" name="product" value="p4">Product 4</label></p>
+       </fieldset>
+       <fieldset>
+         <legend>Options</legend>
+         <p><label><input type="checkbox" name="opcion1">Option 1</label></p>
+         <p><label><input type="checkbox" name="opcion2">Option 2</label></p>
+         <p><label><input type="checkbox" name="opcion3">Option 3</label></p>
+       </fieldset>
+       <p>Send to
+       <select name="Place">
+         <optgroup label="Spain">
+           <option value="bcn">Barcelona</option>
+           <option value="mad" selected="true">Madrid</option>
+         </optgroup>
+         <optgroup label="Portugal">
+           <option value="lis">Lisboa</option>
+           <option value="por">Oporto</option>
+         </optgroup>
+       </select>
+       </p>
+       <p>
+         <label>Quantity</label>
+         <input type="number" name="quantity" value="1" required="true">
+       </p>
+       <p>
+         <label>Date</label>
+         <input type="date" name="date">
+       </p>
+       <p>
+         <label>Batches (10 to 10)</label>
+         <input type="number" name="batch" step="10">
+       </p>
+       <p>
+         <label>Range</label>
+         <input type="range" name="range" value="50" required="true">
+       </p>
+       <p>
+         <label>Instructions</label>
+         <textarea name="instructions" cols="50" maxlenght="100">Instructions</textarea>
+       </p>
+       <p>
+         <label>Code postal</label>
+         <input type="text" name="code" pattern="^\d{5}">
+       </p>
+       <p>
+         <label>Email address</label>
+         <input type="email" name="email" required="true" autofocus="true">
+       </p>
+       <p>
+         <label>Phone</label>
+         <input type="tel" name="phone" pattern="^[69]\d{8}">
+       </p>
+       <p>
+         <label>URL</label>
+         <input type="url" name="url">
+       </p>
+       <p>
+         <label>List of things
+           <input list="alist">
+           <datalist id="alist">
+             <option label="Value1" value="Value 1">
+             <option label="Value2" value="Value 2">
+             <option label="Value1" value="Value 3">
+           </datalist> 
+         </label>
+       </p>
+       <p>
+         <label>Comments</label>
+         <input type="text" name="comments" placeholder="Anything you want to tell us">
+       </p>
+       <progress id="progress" value="10" max="100"></progress>
+       <br>
+       <button type="submit">Send</button>
+       <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOP example</title>
+    <meta charset="utf-8"/>
+    <script src="js/sop.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <label for="apiurl">URL to Call:</label>
+    <input type="text" id="apiurl" list="apis">
+    <datalist id="apis"></datalist>
+    <script id="apilisttemplate" type="text/template">
+        <% _.each(apilist, function(option) { %>
+            <option value="<%= option.name %>">
+                <%= option.name %>
+            </option>
+        <% }); %>
+    </script>
+    <button id="call">Call</button>
+    <button id="reset">Reset</button>
+    <div id="message"></div>
+    <script id="messagetemplate" type="text/template">
+        <%= message %>
+    </script>
+    <ol id="planets"></ol>
+    <script id="planetstemplate" type="text/template">
+        <% _.each(planets, function(planet) { %>
+            <li value="<%= planet.value %>">
+                <%= planet.name %>
+            </li>
+        <% }); %>
+    </script>
+  </body>
+</html>

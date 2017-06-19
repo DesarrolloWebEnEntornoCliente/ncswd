@@ -1,0 +1,49 @@
+.container {
+	background: red;
+	position: relative;
+	border-radius: 2px;
+	box-shadow: 1px 4px 4px rgba(0, 0, 0, .5),
+		 1px 8px 3px rgba(255, 255, 0, .8);
+}
+
+.container:before {
+	content:"";
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-bottom: 8px solid red;
+	position: absolute;
+	left: 50%;
+	top: -16px;
+}
+
+.container2 {
+	background: green;
+}
+
+.cf:after {
+	content:"";
+	clear: both;
+	display: block;
+}
+
+.leftbox {
+	float:left;
+}
+
+.rightbox {
+	float: right;
+}	
+
+.menu {
+	position: fixed;
+	background: #fff;
+	background: rgba(255, 255, 255, .8);
+	padding: 20px;
+	z-index: 2;
+	width: 100%
+}
+
+.inner {
+	padding-top: 80px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic JSONP sample</title>
+    <meta charset="utf-8"/>
+    <script>
+      var $ = document.getElementById.bind(document);
+      function handleResponse(data) {
+        var result = $("result");
+        var list = document.createElement("ol");
+        list.innerHTML = data.map(function (i) {
+            return "<li>" + i + "</li>";;
+        }).join('');
+        result.appendChild(list);
+      }
+      window.onload = function() {
+        $("call").onclick = function () {
+          var jsonpurl = $("jsonpurl").value,
+              script = document.createElement("script");
+              script.src = jsonpurl;
+          document.body.appendChild(script);
+        };
+        $("clear").onclick = function () {
+          $("result").firstChild.remove();
+        };
+      }
+    </script>
+  </head>
+  <body>
+    <label for="jsonpurl">JSONP URL</label>
+    <input type="text" name="jsonpurl" id="jsonpurl" value="" />
+    <button id="call">Call</button>
+    <button id="clear">Clear</button>
+    <div id="result"></div>
+  </body>
+</html>

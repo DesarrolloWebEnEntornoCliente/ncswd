@@ -1,0 +1,20 @@
+ul {
+    font-family: Verdana;
+    font-size: 2em;
+}
+
+li.flickr {
+    list-style-image: url('../img/flickr.png');
+}
+
+li.linkedin {
+    list-style-image: url('../img/linkedin.png');
+}
+
+li.myspace {
+    list-style-image: url('../img/myspace.png');
+}
+
+li.rss{
+    list-style-image: url('../img/rss.png');
+}

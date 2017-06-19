@@ -1,0 +1,9 @@
+canvas {
+    border: solid 1px;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    width: 100px;
+}

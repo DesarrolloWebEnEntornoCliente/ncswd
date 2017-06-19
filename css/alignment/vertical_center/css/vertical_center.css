@@ -1,0 +1,10 @@
+#container {
+    position: relative;
+}
+
+#inner {
+    position: absolute;
+    top: 50%;
+    height: em;
+    margin-top: -5em;
+}

@@ -1,0 +1,29 @@
+.outer {
+	height: 30em;
+	width: 30em;
+	background: gold;
+	margin: auto;
+	text-align: center;
+}
+
+.outer:before {
+	display: inline-block;
+	width: 0px;
+	height: 100%;
+	content: "";
+	vertical-align: middle;
+}
+
+.inner {
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	background: purple;
+	vertical-align: middle;
+	text-align: justify;
+  overflow: hidden;
+}
+
+.inner p {
+		font-size: 1.2em;
+}

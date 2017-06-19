@@ -1,0 +1,4 @@
+loadPlanets( { "Earth": [ "Moon" ],
+               "Mars": [ "Phobos", "Deimos" ],
+               "Saturn": [ "Mimas", "Enceladus", "Tethys", "Dione", "Rhea", "Titan", "Iapetus" ]
+})

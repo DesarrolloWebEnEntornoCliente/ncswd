@@ -1,0 +1,29 @@
+div {
+  position: relative;
+  height: 350px;
+  top: 2em;
+  left: 2em;
+  border: solid 2px;
+  background-color: aquamarine;
+}
+
+div img {
+  position: absolute;
+  width: 340px;
+  height: 262px;
+  top: 3em;
+  right: 2em;
+}
+
+p {
+  position: absolute;
+  width: 65%;
+  top: 0;
+  left: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+p:first-letter {
+  font-size: 3em;
+}

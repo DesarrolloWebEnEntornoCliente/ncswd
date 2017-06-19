@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='css/openwindow.css' type='text/css'/>
+    <script language='javascript' type='text/javascript'>
+      window.onload = function () {
+	      document.getElementById('cont').innerHTML=window.opener.document.getElementById('content').innerHTML;
+	      window.print();
+      }
+    </script>
+  </head>
+  <body>
+    <div id='cont'></div>
+  </body>
+</html>

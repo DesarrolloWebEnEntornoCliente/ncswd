@@ -1,0 +1,11 @@
+.container {
+	height: 400px;
+	width: 300px;
+	text-align: center;
+	border: 0.2em solid;
+}
+
+.inner {
+	width: 200px;
+	display: inline-block;
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.container{
+    width: 20em;
+}
+
+.contenedor input {
+    width: 100%;
+}
+
+label:after {
+	content: "()";
+}
+
+input:optional {
+	border-color: magenta;
+}
+
+input[type="submit"] {
+	border-color: inherit;
+}

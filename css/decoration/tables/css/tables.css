@@ -1,0 +1,74 @@
+.table {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+.table caption {
+  font-family: Verdana;
+}
+
+.table th {
+  border: 2px dashed;
+}
+
+.table td {
+  border: 1px solid #000;
+}
+
+.othertable {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
+
+.othertable th {
+  border: 2px dashed;
+}
+
+.othertable td {
+  border: 1px solid #000;
+}
+
+.anothertable {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid blue;
+  border-spacing: 0;
+}
+
+.anothertable caption {
+  font-weight: bold;
+}
+
+.anothertable th {
+  border: 2px dashed;
+}
+
+.anothertable td {
+  border: 1px solid #000;
+}
+
+.onetablemore {
+  width: 50%;
+  margin: 0 auto;
+
+  border-collapse: separate;
+  empty-cells: hide;
+  caption-side: bottom;
+}
+
+.onetablemore caption {
+  font-weight: bold;
+}
+
+.onetablemore th {
+  border: 2px dashed;
+}
+
+.onetablemore td {
+  border: 1px solid #000;
+}
+
+

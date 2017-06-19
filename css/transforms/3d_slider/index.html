@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS 3D Slider</title>
+    <link rel="stylesheet" href="css/3dslider.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+  </head>
+  <body>
+INLCUDE JS
+    <script>
+    $(document).ready(function() {
+            $("#css3dimagePager li").click(function(){
+                        var rotateY = ($(this).index() * -90);
+                        $("#css3dimageslider ul").css({"-webkit-transform":"rotateY("+rotateY+"deg)", "-moz-transform":"rotateY("+rotateY+"deg)", "-ms-transform":"rotateY("+rotateY+"deg)", "transform":"rotateY("+rotateY+"deg)"});
+                        $("#css3dimagePager li").removeClass("active");
+                        $(this).addClass("active");
+                    });
+            $("#css3dtransparency").click(function() {
+                        $("#css3dimageslider").toggleClass("transparency");
+                        $(this).toggleClass("active");
+                    });
+         });
+    </script>
+
+    <div id="css3dimageslider" class="transparency">
+        <ul>
+            <li> <img src="img/css3dimg1.jpg"> </li>
+            <li> <img src="img/css3dimg2.jpg"> </li>
+            <li> <img src="img/css3dimg3.jpg"> </li>
+            <li> <img src="img/css3dimg4.jpg"> </li>
+        </ul>
+    </div>
+    <ul id="css3dimagePager">
+        <li class="active">Image 1</li>
+        <li>Image 2</li>
+        <li>Image 3</li>
+        <li>Image 4</li>
+    </ul>
+    <p id="css3dtransparency" class="active">Click me to toggle transparency</p>
+  </body>
+</html>

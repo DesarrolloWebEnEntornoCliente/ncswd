@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Navegador de imágenes</title>
+    <link rel="stylesheet" href="css/carrousel.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <script language="javascript">
+    <!--
+      var current = 1;
+  	  const image1 = './img/image1.png';
+  	  const image2 = './img/image2.png';
+  	  function next() {
+  		  if (current) {
+  			  current--;
+  			  window.document.f.image.src=image2;
+  		  } else {
+  			  current++;
+  			  window.document.f.image.src=image1;
+  		  }
+  	  }
+      window.onload = function () {
+  		  window.document.f.image.src=image1;
+      };
+    //-->
+    </script>
+    <div>
+      <form name="f">
+        <img name="image"></img>
+        <hr />
+        <input name="button" type="button" value="Next" onclick='next()'></input>
+      </form>
+    </div>
+  </body>
+</html>
+

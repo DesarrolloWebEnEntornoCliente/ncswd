@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul#tags {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+    height: 25px;
+    border-bottom: 1px solid black;
+    background: rgb(222, 222, 222);
+}
+
+ul#tags li {
+    float: left;
+    margin: 0px 5px;
+    height: 23px;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    border: 1px solid black;
+    top: 1px;
+    background: rgb(128, 128, 128);
+}
+
+ul#tags li:hover {
+    border-bottom: 1px solid white;
+    background: white;
+}
+
+ul#tags a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font: 14px Arial, sans-serif;
+}
+
+body#wrox li#pestana1,
+body#amazon li#pestana2,
+body#google li#pestana3,
+body#slashdot li#pestana4 {
+   background: white;
+   border-bottom: 1px solid white;
+}
+
+ul#tags a:hover,
+body#wrox li#pestana1 a,
+body#amazon li#pestana2 a,
+body#google li#pestana3 a,
+body#slashdot li#pestana4 a {
+    color: black;
+}
+
+ul#tags span {
+    display: block;
+    padding: 4px 10px 0px 10px;
+}
+
+div#iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 50px;
+
+}
+
+iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%
+}

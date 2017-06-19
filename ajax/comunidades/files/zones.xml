@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE zones
+[
+<!ELEMENT zone (province)*>
+<!ELEMENT province (#PCDATA)>
+
+<!ATTLIST zone id ID #REQUIRED>
+]>
+<zones>
+  <zone id="Andalucía">
+    <province>Almería</province>
+    <province>Cádiz</province>
+    <province>Cordoba</province>
+    <province>Granada</province>
+    <province>Huelva</province>
+    <province>Jaén</province>
+    <province>Málaga</province>
+    <province>Sevilla</province>
+  </zone>
+  <zone id="Aragón">
+    <province>Huesca</province>
+    <province>Teruel</province>
+    <province>Zaragoza</province>
+  </zone>
+  <zone id="Canarias">
+    <province>Las Palmas</province>
+    <province>Santa Cruz de Tenerife</province>
+  </zone>
+  <zone id="Cantabria">
+    <province>Cantabria</province>
+  </zone>
+  <zone id="Castilla y León">
+    <province>Ávila</province>
+    <province>Burgos</province>
+    <province>León</province>
+    <province>Palencia</province>
+    <province>Salamanca</province>
+    <province>Segovia</province>
+    <province>Soria</province>
+    <province>Valladolid</province>
+    <province>Zamora</province>
+  </zone>
+  <zone id="Castilla-La Mancha">
+    <province>Albacete</province>
+    <province>Ciudad Real</province>
+    <province>Cuenca</province>
+    <province>Guadalajara</province>
+    <province>Toledo</province>
+  </zone>
+  <zone id="Catalunya">
+    <province>Barcelona</province>
+    <province>Girona</province>
+    <province>Lleida</province>
+    <province>Tarragona</province>
+  </zone>
+  <zone id="Ciudad Autónoma de Ceuta">
+    <province>Ceuta</province>
+  </zone>
+  <zone id="Ciudad Autónoma de Melilla">
+    <province>Melilla</province>
+  </zone>
+  <zone id="zone de Madrid">
+    <province>Madrid</province>
+  </zone>
+  <zone id="Comunidad Foral de Navarra">
+    <province>Navarra</province>
+  </zone>
+  <zone id="Comunitat Valenciana">
+    <province></province>
+    <province>Alacant</province>
+    <province>Castelló</province>
+    <province>Valencia</province>
+  </zone>
+  <zone id="Extremadura">
+    <province>Badajoz</province>
+    <province>Cáceres</province>
+  </zone>
+  <zone id="Euskadi">
+    <province>Araba</province>
+    <province>Bikaia</province>
+    <province>Gipuzkoa</province>
+  </zone>
+  <zone id="Galiza">
+    <province>A Coruña</province>
+    <province>Lugo</province>
+    <province>Ourense</province>
+    <province>Pontevedra</province>
+  </zone>
+  <zone id="Illes Balears">
+    <province>Illes Balears</province>
+  </zone>
+  <zone id="La Rioja">
+    <province>La Rioja</province>
+  </zone>
+  <zone id="Principáu d'Asturies">
+    <province>Asturias</province>
+  </zone>
+  <zonp id="Región de Murcia">
+    <province>Murcia</province>
+  </zone>
+</zones>

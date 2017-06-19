@@ -1,0 +1,59 @@
+figure {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 2em;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 25%;
+}
+
+li {
+  position: relative;
+  width: 25%;
+  padding-top: 25%;
+  float: left;
+  height: 0;
+}
+
+a {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url('../img/sprites.png');
+  background-size: 1000%;
+  height: 100%;
+  width: 100%;
+}
+
+a[href="world"] {
+  background-position: 0 0;
+}
+
+a[href="okay"] {
+  background-position: 65% 100%;
+}
+
+a[href="search"] {
+  background-position: 0% 60%;
+}
+
+a[href="refresh"] {
+  background-position: 33% 60%;
+}

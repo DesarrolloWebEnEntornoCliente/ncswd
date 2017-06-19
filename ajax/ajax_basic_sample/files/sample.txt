@@ -1,0 +1,3 @@
+Type: Texto
+Number: 1
+Boolean: true

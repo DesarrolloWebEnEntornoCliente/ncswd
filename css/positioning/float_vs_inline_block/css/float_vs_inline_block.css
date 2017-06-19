@@ -1,0 +1,30 @@
+div {
+  background-color: purple;
+}
+
+.margin {
+  margin-left: 0;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid;
+}
+
+.clear {
+  clear: left;
+}
+
+.float {
+  float: left;
+}
+
+.inblock {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+ div p {
+   position: absolute;
+ }

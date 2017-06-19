@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Cookie Test</title>
+    <script language="javascript"><!--
+      function updateCookie() {
+         document.cookie = document.form1.cookie.value
+         location.reload(true)
+      }
+    // --></script>
+  </head>
+  <body>
+    <script language="javascript"><!--
+      document.write("Your current cookie value is: '" + document.cookie + "'")
+    // --></script>
+    <form action="" name="form1">
+      <p>Enter new cookie: <input type="text" size="60" name="cookie"></p>
+      <input type="button" name="setcookie" value="Set Cookie" onclick="updateCookie()">
+    </form>
+  </body>
+</html>

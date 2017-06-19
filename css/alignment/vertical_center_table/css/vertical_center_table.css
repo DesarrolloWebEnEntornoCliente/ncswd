@@ -1,0 +1,10 @@
+#outer {
+    display: table;
+    height: 10em;
+    border: solid 1px;
+}
+
+#inner {
+    display: table-cell;
+    vertical-align: middle;
+}

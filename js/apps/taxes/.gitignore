@@ -1,0 +1,8 @@
+coverage/
+css/
+dist/
+doc/
+lib/
+node_modules/
+npm-debug.log
+test/results/results.txt

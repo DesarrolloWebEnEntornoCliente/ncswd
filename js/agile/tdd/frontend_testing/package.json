@@ -1,0 +1,42 @@
+{
+  "name": "frontendtesting",
+  "description": "Testing in the frontend",
+  "license": "Public Domain",
+  "version": "0.0.1",
+  "author": "Chema Alonso",
+  "keywords": [
+    "sample",
+    "js",
+    "karma"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "scripts": {
+    "buildapp": "./node_modules/.bin/browserify -o lib/calculator.js js/app.js",
+    "manual_test": "npm run buildapp && xdg-open index.html",
+    "casperjs-_est": "npm run buildapp && ./node_modules/.bin/casperjs test casperjs_test/*.js",
+    "karma_test": "npm run buildapp && ./node_modules/.bin/karma start",
+    "wdio_test": "npm run buildapp && ./node_modules/.bin/wdio wdio.conf.js",
+    "dist": "rm -rf /tmp/frontend_testing/ && rsync -azt --exclude node_modules --exclude lib/* --exclude .gitignore --exclude npm-debug.log ./* /tmp/frontend_testing  && cd /tmp && zip -qr frontend_testing.zip frontend_testing/"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "casperjs": "^1.1.3",
+    "firefox-profile": "^0.4.7",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-slimerjs-launcher": "^1.1.0",
+    "wdio": "^0.3.3",
+    "wdio-firefox-profile-service": "0.0.1",
+    "wdio-mocha-framework": "^0.5.8",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-static-server-service": "^1.0.1"
+  }
+}

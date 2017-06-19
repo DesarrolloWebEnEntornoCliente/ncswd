@@ -1,0 +1,153 @@
+#long1 {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 10s;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 10s;
+  -o-transition-property: font-size;
+  -o-transition-duration: 10s;
+  font-size: 14px;
+}
+
+#long1:hover {
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 10s;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 10s;
+  -o-transition-property: font-size;
+  -o-transition-duration: 10s;
+  font-size: 36px;
+}
+
+#delay1 {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 4s;
+  -moz-transition-delay: 2s;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 4s;
+  -webkit-transition-delay: 2s;
+  -o-transition-property: font-size;
+  -o-transition-duration: 4s;
+  -o-transition-delay: 2s;
+  font-size: 14px;
+}
+
+#delay1:hover {
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 4s;
+  -moz-transition-delay: 2s;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 4s;
+  -webkit-transition-delay: 2s;
+  -o-transition-property: font-size;
+  -o-transition-duration: 4s;
+  -o-transition-delay: 2s;
+  font-size: 36px;
+}
+
+#fast1 {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-property: font-size;
+  -o-transition-duration: 0.5s;
+  font-size: 14px;
+}
+
+#fast1:hover {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-property: font-size;
+  -o-transition-duration: 0.5s;
+  font-size: 36px;
+}
+
+#easeout {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 5s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 5s;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-property: font-size;
+  -o-transition-duration: 5s;
+  -o-transition-timing-function: ease-out;
+  font-size: 14px;
+}
+
+#easeout:hover {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 5s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 5s;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-property: font-size;
+  -o-transition-duration: 5s;
+  -o-transition-timing-function: ease-out;
+  font-size: 36px;
+}
+
+#linear {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 5s;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 5s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-property: font-size;
+  -o-transition-duration: 5s;
+  -o-transition-timing-function: linear;
+  font-size: 14px;
+}
+
+#linear:hover {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 5s;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 5s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-property: font-size;
+  -o-transition-duration: 5s;
+  -o-transition-timing-function: linear;
+  font-size: 36px;
+}
+
+#cubic1 {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 5s;
+  -moz-transition-timing-function: cubic-bezier(0.2, 0.4, 0.7, 0.8);
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 5s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 0.4, 0.7, 0.8);
+  -o-transition-property: font-size;
+  -o-transition-duration: 5s;
+  -o-transition-timing-function: cubic-bezier(0.2, 0.4, 0.7, 0.8);
+  font-size: 14px;
+}
+
+#cubic1:hover {
+  position: relative;
+  -moz-transition-property: font-size;
+  -moz-transition-duration: 5s;
+  -moz-transition-timing-function: cubic-bezier(0.2, 0.4, 0.7, 0.8);
+  -webkit-transition-property: font-size;
+  -webkit-transition-duration: 5s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 0.4, 0.7, 0.8);
+  -o-transition-property: font-size;
+  -o-transition-duration: 5s;
+  -o-transition-timing-function: cubic-bezier(0.2, 0.4, 0.7, 0.8);
+  font-size: 36px;
+}

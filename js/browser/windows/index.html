@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Opening windows...</title>
+    <link rel="stylesheet" href="css/window.css" type="text/css" media="all" />
+    <script type="text/javascript" src="js/window.js"></script>
+  </head>
+  <body>
+    <form name="windowopener">
+      <input type="button" name="newwindow" value="New Window" onclick="openwindow()"/>
+      <hr>
+      <input type="text" class="url" name="uri" value="https://developer.mozilla.org">
+      <input type="button" name="openuri" value="Open URI in window" onclick="sendURL(window.windowopener.uri.value)"/>
+    </form>
+  </body>
+</html>

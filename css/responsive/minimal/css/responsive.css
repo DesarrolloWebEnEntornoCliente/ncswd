@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	font-family: Sans-serif;
+}
+
+.cf:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.container { 
+	max-width: 1000px;
+	margin: 0 auto;
+	background: aquamarine;
+}
+
+aside {
+	width: 25%;
+	background: gold;
+	float:right;
+	padding: 10px;
+	font-size: 2em;
+}
+
+section {
+	float:left;
+	width: 72%;
+	background: green;
+	padding: 10px;
+}
+
+@media (max-width: 700px) {
+	section {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	aside {
+		float: none;
+		width: 100%;
+		font-size: 1em;
+	}
+	img {
+		display: none;
+	}
+}

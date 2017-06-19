@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE solarsystem
+[
+<!ELEMENT solarsystem (planet)*>
+<!ELEMENT planet (moon)*>
+<!ELEMENT moon (#PCDATA)>
+
+<!ATTLIST planet
+    id ID #REQUIRED
+    name CDATA #REQUIRED
+    mass CDATA #REQUIRED
+>
+<!ATTLIST moon id ID #REQUIRED>
+]>
+<solarsystem>
+    <planet id="Earth" name="Tierra" mass="1">
+        <moon id="Moon">Luna</moon>
+    </planet>
+    <planet id="Mars" name="Marte" mass="0.107">
+        <moon id="Phobos">Fobos</moon>
+        <moon id="Deimos">Deimos</moon>
+    </planet>
+    <planet id="Saturn" name="Saturno" mass="95.159">
+        <moon id="Mimas">Mimas</moon>
+        <moon id="Enceladus">Encélado</moon>
+        <moon id="Tethys">Tetis</moon>
+        <moon id="Dione">Dione</moon>
+        <moon id="Rhea">Rea</moon>
+        <moon id="Titan">Titán</moon>
+        <moon id="Iapetus">Jápeto</moon>
+    </planet>
+</solarsystem>

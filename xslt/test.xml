@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<page>
+        <entry>
+                <title>Test1</title>
+                <comment>Interesting post 1</comment>
+                <date>2012-10-19</date>
+        </entry>
+        <entry>
+                <title>Test2</title>
+                <comment>Interesting post 2</comment>
+                <date>2012-10-20</date>
+        </entry>
+</page>
+

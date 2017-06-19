@@ -1,0 +1,25 @@
+div {
+  width: 20%;
+  height: 200px;
+  display: inline-block;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
+  background-color: orange;
+  padding: 0.1em;
+  margin-left: 2em;
+  margin-top: 0.5em;
+
+}
+
+div#block1 {
+  overflow: auto;
+}
+
+div#block2 {
+  overflow: visible;
+}
+
+div#block3 {
+  overflow: hidden;
+}

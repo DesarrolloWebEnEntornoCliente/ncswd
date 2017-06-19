@@ -1,0 +1,23 @@
+div#block1, div#block2, div#block3 {
+  width: 100px;
+  height: 200px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 2%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+div#block4 {
+  width: 400px;
+  position: fixed;
+  top: 40px;
+  left: -50px;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
+  padding: 2%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}

@@ -1,0 +1,58 @@
+body {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+a,a:visited {
+  text-decoration: underline;
+}
+
+a: hover {
+  text-decoration: none;
+}
+
+p {
+  font-family: Verdana, serif;
+  color: #3e3c3c;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #252424;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+section {
+  width: 95%; 
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+footer {
+   width: 95%;
+   max-width: 50em;
+   padding: 4em 0;
+   margin: 4em auto;
+   border-top: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 35em) {
+   body {
+     font-size: 1.5em;
+   }
+   section, footer {
+     width: 80%;
+   }
+   h1 {
+     font-size: 3em;
+     color: #ff333e;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   img {
+     display: none;
+   }
+}

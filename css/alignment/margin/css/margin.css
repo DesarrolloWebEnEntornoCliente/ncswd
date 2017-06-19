@@ -1,0 +1,13 @@
+.inner {
+	height: 30%;
+	width: 30%;
+	position: absolute;
+  margin: auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	border: 0.1em solid;
+	padding: 0.8em;
+	overflow: hidden;
+}

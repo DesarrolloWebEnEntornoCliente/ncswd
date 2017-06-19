@@ -1,0 +1,33 @@
+div {
+   border-style: solid;
+   border-color: red;
+}
+
+.square {
+   position: absolute;
+   height: 50px;
+   width: 50px;
+}
+
+#one {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    height: 200px;
+    margin-top: 10%;
+    border-color: inherit;
+}
+#two {
+   top: 0;
+   left: 0;
+}
+
+#three {
+   top: 30%;
+   right: -25px;
+}
+
+#four {
+   bottom: 5px;
+   left: 10px;
+}

@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6'
+script: grunt
+deploy:
+  provider: heroku
+  app: txcalculator
+  skip_cleanup: true
+  api_key:
+    secure: "<YOUR HEROKU TOKEN HERE>"
+

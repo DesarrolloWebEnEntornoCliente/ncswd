@@ -1,0 +1,13 @@
+[ {
+    "heading": "about",
+    "sections": ["mission", "location", "shop"]
+  },
+  {
+    "heading": "related",
+      "sections": ["magazine", "blog", "meetings"]
+  },
+  {
+    "heading": "faqs",
+      "sections": ["how to join", "contact", "cookie policy"]
+  }
+]

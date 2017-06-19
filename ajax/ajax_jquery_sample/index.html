@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+      function process(response) {
+         alert(response);
+      }
+
+      function notifyerror(response) {
+         alert("Error talking to the server");
+      }
+
+      // $.get(url, data, handler)
+      // $.post()
+      // $().load(url)
+      // $.getJSON()
+      // $.getScript()
+
+      function doajax() {
+        $.ajax({
+           url: '/cities/cities.txt',
+           type: 'GET',
+           async: true,
+           //data: 'key1=value1&key2=value2',
+           success: process,
+           error: notifyerror
+       });
+       }
+
+       function redoajax() {
+          $("#cities").load('/cities/cities.html');
+       }
+    </script>
+  </head>
+  <body>
+    <button onclick="doajax()">Clic</button>
+    <button onclick="redoajax()">Clac</button>
+    <div id="cities">
+      <p>Cities</p>
+    <div>
+  </body>
+</html>

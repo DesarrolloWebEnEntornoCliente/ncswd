@@ -1,0 +1,19 @@
+ /* this is to reproduce table-like structure for the sake of table-less layout. */
+ .table { display:table; table-layout:fixed; width:100px; }
+ .row { display:table-row; height:10px; }
+ .cell { display:table-cell; }
+
+ /* this is where the colspan tricks works. */
+ span { width:100%; }
+
+ /* below is for visual recognition test purposes only. */
+ .red { background:red; }
+ .blue { background:blue; }
+ .green { background:green; }
+ .black { background:black; }
+
+ /* this is the benefit of using table display, it is able to set the width of it's
+    child object to fill the rest of the parent width as in table */
+ .first { width: 20px; }
+ .last { width: 30px; }
+ .fill { width: 100%; }

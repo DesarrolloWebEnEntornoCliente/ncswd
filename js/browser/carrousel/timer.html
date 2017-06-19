@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8"/>
+    <title>Navegador de imágenes</title>
+    <link rel="stylesheet" href="css/carrousel.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <script language="javascript">
+    <!--
+    	var tempo;
+      var current = 1;
+    	const imageDir='./img';
+    	const imageType='.png';
+    	const numberOfImgs = 5;
+      function imagePath(number) {
+    		return imageDir + '/image' + number + imageType;
+      }
+    	function start() {
+    		if (!tempo) {
+    			tempo = setInterval(next, 1000);
+    		}
+    	}
+    	function stop() {
+    		if (tempo) {
+    			clearInterval(tempo);
+    			tempo=0;
+    		}
+    	}
+    	function next() {
+    		current = current++ % numberOfImgs + 1;
+    		window.document.f.image.src= imagePath(current);
+    	}
+    	function previous() {
+    		current = (--current?current:numberOfImgs);
+    		window.document.f.image.src= imagePath(current);
+    	}
+      window.onload = function () {
+        window.document.f.image.src= imagePath(current);
+      }
+    //-->
+    </script>
+    <div>
+      <form name="f">
+        <img name="image"></img>
+        <hr />
+        <input name="arranca" type="button" value="|>" onclick='start();'></input>
+        <input name="para" type="button" value="||" onclick='stop();'></input>
+      </form>
+    </div>
+  </body>
+</html>

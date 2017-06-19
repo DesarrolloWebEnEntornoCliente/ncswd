@@ -1,0 +1,20 @@
+h2 {
+	font: 20px/26px 'Georgia';
+}
+
+/* Play with display: inline-block and vertical-align */
+h2:before {
+	content:"";
+	width: 20px;
+	height: 1px;
+	background: #ccc;
+	display: block;
+}
+
+h2:after {
+	content:"";
+	width: 20px;
+	height: 1px;
+	background: #ccc;
+	display: block;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/ancient_medium.ttf') format('truetype');
+}
+
+div {
+  background: aquamarine;
+  border: 1px solid black;
+}
+
+p {
+  font-family: MyFont;
+  font-size: 14pt;
+
+  text-transform: none;
+  /* Try: */
+  /* capitalize uppercase lowercase full-width */
+
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 1px 1px 2px black;
+  /* color | offset-x | offset-y | blur-radius */
+  /* text-shadow: #CCC 1px 0 10px; */
+  /* offset-x | offset-y | color */
+  /* text-shadow: 5px 5px #558ABB; */
+  /* color | offset-x | offset-y */
+  /* text-shadow: white 2px 5px; */
+  /* offset-x | offset-y */
+  /* text-shadow: 5px 10px; */
+
+  text-rendering: auto;
+  /* Try: */
+  /* optimizeSpeed optimizeLegibility geometricPrecision */
+
+  text-decoration: none;
+  /* Try: */
+  /* underline red */
+  /* underline wavy red */
+
+  text-indent: 5em;
+
+  letter-spacing: normal;
+  /* Try: */
+  /* 1em */
+
+  white-space: normal;
+  /* Try: */
+  /* pre nowrap pre-wrap pre-line */
+
+  word-spacing: normal;
+  /* Try: */
+  /* 3em */
+
+}
+
+div p:first-letter {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: gold;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mypol",
+  "version": "0.0.0",
+  "description": "A sample polymer app",
+  "main": "main.js",
+  "keywords": [
+    "none"
+  ],
+  "authors": [
+    "pepe"
+  ],
+  "license": "MIT",
+  "homepage": "esa",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}

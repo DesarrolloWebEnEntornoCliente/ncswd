@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tax calculator</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="lib/taxes.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form name="calculate">
+      <input type="text" name="price" placeholder="10">
+        <select name="tax">
+          <option value="4">Superreduced</option>
+          <option value="10">Reduced</option>
+          <option value="21">Normal</option>
+        </select>
+      <p id="btncal" class="btnpara">Calculate</p>
+    </form>
+    <div id="result"></div>
+  </body>
+</html>
