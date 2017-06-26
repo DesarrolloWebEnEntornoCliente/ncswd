@@ -1074,6 +1074,7 @@ A bunch of resources for client side Web application development
 * [The Geolocation API](http://diveintohtml5.info/geolocation.html)
 * [Google Maps API](https://developers.google.com/maps/)
 * [Openlayers](http://www.openlayers.org/)
+* [Leaflet](http://wiki.openstreetmap.org/wiki/Leaflet)
 * [geoPlugin](http://www.geoplugin.com/)
 
 #### Avatars ####
