@@ -1118,6 +1118,11 @@ A bunch of resources for client side Web application development
 * [Unicode character table](http://unicode-table.com/en/)
 * [Project Code Rush](http://www.youtube.com/watch?v=4Q7FTjhvZ7Y)
 
+## Books ##
+
+* [Design Systems](https://www.smashingmagazine.com/design-systems-book/)
+* [JavaScript. The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do)
+* [JavaScript in ten minutes](https://github.com/spencertipping/js-in-ten-minutes)
 ## Quotes ##
 
 > "A picture is worth a thousand words. An interface is worth a thousand pictures."
@@ -1152,10 +1157,6 @@ Alan Cooper
 > "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
 Kyle Ritcher
 
-## Books ##
-
-* [JavaScript. The Definitive Guide](http://shop.oreilly.com/product/9780596805531.do)
-* [JavaScript in ten minutes](https://github.com/spencertipping/js-in-ten-minutes)
 ## Links (Spanish) ##
 
 * [Cómo equilibrar una composición](http://crean.es/equilibrio-visual/)
