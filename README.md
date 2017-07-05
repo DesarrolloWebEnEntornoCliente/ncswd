@@ -930,6 +930,7 @@ A bunch of resources for client side Web application development
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 * [Idiomatic.js](https://github.com/rwaldron/idiomatic.js/)
 * [jQuery JavaScript Style Guide](https://contribute.jquery.org/style-guide/js/)
+* [Project guidelines](https://github.com/wearehive/project-guidelines)
 
 #### Predefined Objects ####
 
