@@ -327,6 +327,9 @@ A bunch of resources for client side Web application development
 
 * [List of User-Agents](http://www.user-agents.org/)
 * [Useragentstring](http://useragentstring.com/pages/useragentstring.php)
+* [wget](https://git.savannah.gnu.org/cgit/wget.git)
+* [curl](https://curl.haxx.se/)
+* [HTTrack](https://www.httrack.com/)
 
 #### Internet Suites ####
 
