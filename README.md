@@ -1112,9 +1112,10 @@ A bunch of resources for client side Web application development
 
 #### Antibots, antispam ####
 
-* [Akismet](https://akismet.com/)
 * [2Captcha](https://2captcha.com/)
 * [9wk.eu](https://www.9kw.eu/)
+* [Akismet](https://akismet.com/)
+* [captchas.net](http://captchas.net/)
 * [reCAPTCHA](http://www.google.com/recaptcha)
 
 ### Miscellaneous ###
