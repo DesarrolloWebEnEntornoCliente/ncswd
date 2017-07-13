@@ -1196,4 +1196,5 @@ Kyle Ritcher
 * [Norma UNE 139803:2012](http://www.en.aenor.es/aenor/normas/normas/fichanorma.asp?tipo=N&amp;codigo=N0049614#.WKrVpdUo-00)
 * [Sid@r](http://www.sidar.org/index.php#goto_a11yhoy)
 * [Historia y Sintaxis básica](http://idesweb.es/temario/javascript-conceptos-basicos)
+* [Hipster Coding #2: Haciendo Tostadas con Yeoman, Gulp y Bower - Blog de Sergio Gordillo](http://blog.sergiogordillo.com/2016/03/hipster-coding-ii-haciendo-tostadas-con.html)
 
