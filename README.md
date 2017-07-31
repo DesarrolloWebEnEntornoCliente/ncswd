@@ -1061,6 +1061,7 @@ A bunch of resources for client side Web application development
 * [JavaScript Koans](https://github.com/mrdavidlaing/javascript-koans)
 * [JavaScript for Testers](https://bitbucket.org/carlosble/javascript4testers/src)
 * [Perfection Kills](http://wtfjs.com/)
+* [What the f*ck JavaScript](https://github.com/denysdovhan/wtfjs)
 
 #### Miscellaneous ####
 
