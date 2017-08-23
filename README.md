@@ -212,6 +212,7 @@ A bunch of resources for client side Web application development
 
 * [Current status](http://www.w3.org/standards/techs/components)
 * [WebComponents.org](http://webcomponents.org/)
+* [Stencil](https://stenciljs.com/)
 
 #### Microdata ####
 
