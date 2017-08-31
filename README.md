@@ -374,6 +374,7 @@ A bunch of resources for client side Web application development
 * [Phantom.js](http://phantomjs.org/)
 * [SlimerJS](http://www.slimerjs.org/)
 * [TrifleJS](http://triflejs.org/)
+* [Firefox headless mode](https://developer.mozilla.org/en-US/Firefox/Headless_mode)
 
 ##### Technology support #####
 
