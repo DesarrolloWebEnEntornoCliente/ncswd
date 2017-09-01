@@ -1035,6 +1035,7 @@ A bunch of resources for client side Web application development
 * [doneJS](http://javascriptmvc.com/)
 * [Mithril](http://mithril.js.org/)
 * [Spine](http://spine.github.io/)
+* [Vue.js](https://vuejs.org/)
 * [Yahoo Mojito](http://developer.yahoo.com/cocktails/mojito/)
 
 ##### MVVM #####
