@@ -1072,6 +1072,7 @@ A bunch of resources for client side Web application development
 * [JavaScript Exercises](http://www.w3resource.com/javascript-exercises/)
 * [Wat](https://www.destroyallsoftware.com/talks/wat)
 * [wtfjs](https://github.com/brianleroux/wtfjs)
+* [JavaScript string encoding](https://kev.inburke.com/kevin/node-js-string-encoding/)
 
 ### Components ###
 
