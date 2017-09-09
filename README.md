@@ -295,6 +295,7 @@ A bunch of resources for client side Web application development
 * [CSSTidy](http://csstidy.sourceforge.net/)
 * [List-o-matic](http://www.accessify.com/tools-and-wizards/developer-tools/list-o-matic/)
 * [Test de selectores CSS3](http://www.css3.info/selectors-test/)
+* [The Zen of just writing CSS](https://svelte.technology/blog/the-zen-of-just-writing-css)
 
 #### Resources ####
 
